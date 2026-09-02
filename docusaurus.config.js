@@ -79,33 +79,11 @@ const config = {
       },
       navbar: {
         title: "Genga's Tips",
-    
-        items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/GengasTips/gengas-tips',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        items: [],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/GengasTips/gengas-tips',
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Genga's Tips.`,
       },
       prism: {
