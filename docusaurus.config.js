@@ -79,7 +79,12 @@ const config = {
       },
       navbar: {
         title: "Genga's Tips",
-        items: [],
+        items: [
+          {to: '/docs/Film & Shows', label: 'Film & Shows', position: 'left'},
+          {to: '/docs/Gaming & Emulation', label: 'Gaming & Emulation', position: 'left'},
+          {to: '/docs/Music', label: 'Music', position: 'left'},
+          {to: '/docs/Books & Audiobooks', label: 'Books & Audiobooks', position: 'left'},
+        ],
       },
       footer: {
         style: 'dark',
