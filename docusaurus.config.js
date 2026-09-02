@@ -79,10 +79,7 @@ const config = {
       },
       navbar: {
         title: "Genga's Tips",
-        logo: {
-          alt: "Genga's Tips Logo",
-          src: 'img/logo.svg',
-        },
+    
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
